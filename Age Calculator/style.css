@@ -1,0 +1,67 @@
+body {
+    background-color: #D2E0FB;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    min-height: 100vh;
+}
+
+.box {
+    height: 350px;
+    width: 50%;
+    background-color: #F9F3CC;
+    box-sizing: border-box;
+    border-top: 2px solid #EFDBC5;
+    border-right: 2px solid #EFDBC5;
+    border-left: 2px solid #EFDBC5;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+}
+
+.buttonBox {
+    height: 100px;
+    width: 50%;
+    background-color: #F9F3CC;
+    box-sizing: border-box;
+    border-right: 2px solid #EFDBC5;
+    border-left: 2px solid #EFDBC5;
+    border-bottom: 2px solid #EFDBC5;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+}
+
+h2 {
+    color: #158078;
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+    width: 75%;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    background-color: #158078;
+    color: white;
+    border: 0;
+}
+
+p, span {
+    color: #158078;
+    font-size: 30px;
+}
+
+.showAge {
+    height: 150px;
+    width: 100%;
+}
